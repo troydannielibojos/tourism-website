@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Your Trip - Gigantes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<header class="nav">
+  <div class="logo">GIGANTES</div>
+  <nav class="links">
+    <a href="index.html">Home</a>
+    <a href="about.html">Discover</a>
+    <a href="contact.html" class="active">Book</a>
+  </nav>
+</header>
+
+<section class="hero contact-hero">
+  <div class="overlay"></div>
+
+  <div class="hero-content">
+    <h1>Book Your Island Escape</h1>
+    <p>Simple. Fast. Beautiful travel experience.</p>
+  </div>
+</section>
+
+
+<section class="booking-wrapper">
+
+  <div class="booking-card">
+
+    <h2>Start Your Booking</h2>
+
+    <form action="confirmation.html">
+
+   
+      <div class="form-grid">
+
+        <div class="input-box">
+          <label>Full Name</label>
+          <input type="text" required>
+        </div>
+
+        <div class="input-box">
+          <label>Email</label>
+          <input type="email" required>
+        </div>
+
+        <div class="input-box">
+          <label>Package</label>
+          <select required>
+            <option>Select Package</option>
+            <option>Island Hopping</option>
+            <option>Overnight Stay</option>
+            <option>Full Experience</option>
+          </select>
+        </div>
+
+        <div class="input-box">
+          <label>Guests</label>
+          <select required>
+            <option>Guests</option>
+            <option>1-2</option>
+            <option>3-5</option>
+            <option>6-10</option>
+          </select>
+        </div>
+
+        <div class="input-box full">
+          <label>Travel Date</label>
+          <input type="date" required>
+        </div>
+
+        <div class="input-box full">
+          <label>Notes</label>
+          <textarea placeholder="Any special requests..."></textarea>
+        </div>
+
+      </div>
+
+      <button class="book-btn">Reserve Now</button>
+
+    </form>
+
+  </div>
+
+</section>
+
+
+<footer>
+  <p>© 2026 Gigantes Island | Premium Travel Experience</p>
+</footer>
+
+</body>
+</html>
